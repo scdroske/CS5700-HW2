@@ -7,7 +7,7 @@ public class Communicator implements Runnable {
 
     private DatagramSocket datagramSocket;
     private boolean _keepGoing;
-    private IMessageProcessor _processor;
+    protected IMessageProcessor _processor;
 
     /**
      * Constructor, which opens an UDP socket on any available port.
